@@ -1,0 +1,299 @@
+.section {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+    background: linear-gradient(135deg, #fdf2f2 0%, #fbf7fb 40%, #ffffff 100%);
+    background-color: #fbf9fb;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #242231;
+}
+.info_section {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.info_span {
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    background: linear-gradient(90deg, #f2994a, #9d4edd);
+    background-clip: text;
+    color: transparent;
+}
+
+.info_head {
+    margin-bottom: 24px;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #242231;
+}
+
+.info_text {
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: black;
+}
+
+.info_button {
+    width: fit-content;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #242231;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info_button:hover {
+    background: #7034a0;
+}
+
+.info_button:active {
+    background: #d8b1f8;
+    color: #242231;
+}
+
+.picture_section {
+    display: flex;
+    width: 50%;
+}
+
+.student_section {
+    background: white;
+}
+
+.student_info {
+   max-width: 700px;
+}
+
+.span_name {
+    font-weight: 500;
+    color: #bcbcbd;
+}
+
+.student_pic {
+    justify-content: flex-end;
+}
+
+.service_section {
+    background: white;
+}
+
+.info_list {
+    margin-bottom: 32px;
+}
+
+.list_item {
+    font-size: 16px;
+    color:#242231;
+}
+    
+
+.list_item::marker {
+    color: #ee7a45;
+}
+
+.white_button {
+    display: flex;
+    background: #fbf7fb;
+    border: solid 2px rgb(151, 150, 150);
+    color: #242231;
+}
+
+.white_button:hover {
+    background: #d8b1f8;
+    border:  solid 2px #d8b1f8;
+}
+.white_button:active {
+    background: #eedcfd;
+    border:  solid 2px #d8b1f8;
+}
+
+.card_section {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+}
+
+.friends_title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #2d3958;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card_item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 24px;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgb(224, 224, 224);
+}
+
+.card_item:hover {
+    background-color: #f0f0f0;
+}
+
+.friend_avatar {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 32px;
+    object-fit: cover;
+}
+
+.friend_name {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2d3958;
+}
+
+.friend_job {
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #7c8398;
+}
+
+.friend_social {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.social_item a {
+    color: #1d9bf0;
+}
+
+.social_item:nth-child(2) a {
+    color: #e5397e;
+}
+
+.social_item:nth-child(3) a {
+    color: #1976d2;
+}
+
+.social_item:hover {
+    opacity: 0.75;
+}
+
+.card_menu {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 8px;
+    color: #5a6579;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card_menu:hover {
+    background: #f1f3f8;
+}
+
+.team_card {
+    max-width: 1440px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.team_name {
+    margin-bottom: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9aa3b2;
+}
+
+.card_title {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #2d3958;
+}
+
+.card_info {
+    max-width: 620px;
+    margin-bottom: 64px;
+    color: #7c8398;
+}
+
+.team_cards {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+.team_item {
+    padding: 16px 8px;
+}
+
+.team_avatar {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.carousel_arrow {
+    position: absolute;
+    top: 55%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background: #b4b4b4;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.arrow_prev {
+    left: 64px;
+    background: #9aa3b2;
+}
+
+.arrow_next {
+    right: 64px;
+    background: #54585f;
+}
+
+.carousel_arrow svg {
+    width: 20px;
+    height: 20px;
+}
+
+.team_button {
+  font-weight: bold;
+  padding: 8px 16px;  
+  border-radius: 8px;
+  border: solid 2px rgb(235, 235, 235);
+  background-color: #ffffff;
+}
+
+.team_button svg {
+    margin-left: 16px;
+}
